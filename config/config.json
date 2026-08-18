@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "team-radar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamRadar/TeamRadarWebPart.js",
+          "manifest": "./src/webparts/teamRadar/TeamRadarWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamRadarWebPartStrings": "lib/webparts/teamRadar/loc/{locale}.js"
+  }
+}

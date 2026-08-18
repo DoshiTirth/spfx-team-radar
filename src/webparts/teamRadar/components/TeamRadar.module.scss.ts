@@ -1,0 +1,30 @@
+const styles = {
+  teamRadar: 'teamRadar_c5d6e7',
+  header: 'header_c5d6e7',
+  title: 'title_c5d6e7',
+  subtitle: 'subtitle_c5d6e7',
+  flag: 'flag_c5d6e7',
+  pulseButton: 'pulseButton_c5d6e7',
+  empty: 'empty_c5d6e7',
+  gridWrap: 'gridWrap_c5d6e7',
+  grid: 'grid_c5d6e7',
+  personHeader: 'personHeader_c5d6e7',
+  weekHeader: 'weekHeader_c5d6e7',
+  personCell: 'personCell_c5d6e7',
+  cellWrap: 'cellWrap_c5d6e7',
+  cell: 'cell_c5d6e7',
+  cellEmpty: 'cellEmpty_c5d6e7',
+  blockerDot: 'blockerDot_c5d6e7',
+  blockerDotStatic: 'blockerDotStatic_c5d6e7',
+  tooltip: 'tooltip_c5d6e7',
+  tooltipTitle: 'tooltipTitle_c5d6e7',
+  tooltipBlocker: 'tooltipBlocker_c5d6e7',
+  legend: 'legend_c5d6e7',
+  legendItem: 'legendItem_c5d6e7',
+  legendSwatch: 'legendSwatch_c5d6e7',
+  formBody: 'formBody_c5d6e7',
+  formField: 'formField_c5d6e7',
+  formActions: 'formActions_c5d6e7'
+};
+
+export default styles;

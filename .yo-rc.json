@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.7",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.23.0",
+    "libraryName": "spfx-team-radar",
+    "libraryId": "d8a2f5c1-3e7b-4c9a-9f1d-8b3e6c9a4d15",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-team-radar",
+    "solutionShortDescription": "SPFx Team Radar web part",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

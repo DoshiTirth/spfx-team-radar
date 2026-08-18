@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "a9c3e7b2-4f1d-4a8e-9c2b-5d7f1a3e8c62",
+  "alias": "TeamRadarWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Team Radar" },
+      "description": { "default": "Weekly team pulse heatmap — workload, mood, and blockers at a glance" },
+      "officeFabricIconFontName": "Heatmap",
+      "properties": {
+        "radarTitle": "Team Radar",
+        "listName": "",
+        "weeksToShow": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.teamRadar {
+  font-family: $ms-font-family-fallbacks;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    margin: 0 0 6px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1b1b1f;
+  }
+
+  .subtitle {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .flag {
+    font-size: 12px;
+    font-weight: 600;
+    color: #e64980;
+    background: #fdeef3;
+    padding: 3px 10px;
+    border-radius: 10px;
+  }
+
+  .pulseButton {
+    background: #2f6fed;
+    color: #ffffff;
+    border-radius: 6px;
+
+    &:hover {
+      background: #2559c9;
+      color: #ffffff;
+    }
+  }
+
+  .empty {
+    color: #8a8f98;
+    font-size: 14px;
+    padding: 20px 0;
+  }
+
+  .gridWrap {
+    overflow-x: auto;
+  }
+
+  .grid {
+    border-collapse: separate;
+    border-spacing: 6px;
+  }
+
+  .personHeader {
+    min-width: 140px;
+  }
+
+  .weekHeader {
+    font-size: 12px;
+    font-weight: 600;
+    color: #6b6f76;
+    text-align: center;
+    min-width: 44px;
+  }
+
+  .personCell {
+    font-size: 14px;
+    color: #1b1b1f;
+    white-space: nowrap;
+    padding-right: 12px;
+  }
+
+  .cellWrap {
+    text-align: center;
+  }
+
+  .cell {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+
+    &:hover {
+      transform: scale(1.12);
+    }
+  }
+
+  .cellEmpty {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    margin: 0 auto;
+    background: #f2f3f5;
+  }
+
+  .blockerDot {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #33373d;
+  }
+
+  .blockerDotStatic {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #33373d;
+  }
+
+  .tooltip {
+    font-size: 13px;
+    max-width: 220px;
+  }
+
+  .tooltipTitle {
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .tooltipBlocker {
+    margin-top: 6px;
+    color: #6b6f76;
+  }
+
+  .legend {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  .legendItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #6b6f76;
+  }
+
+  .legendSwatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    display: inline-block;
+  }
+
+  .formBody {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 8px;
+  }
+
+  .formField {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formActions {
+    display: flex;
+    gap: 10px;
+  }
+}
